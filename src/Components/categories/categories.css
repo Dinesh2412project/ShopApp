@@ -1,0 +1,253 @@
+.categories{
+    width: 68%;
+    height: 550px;
+    margin-left: 20rem;
+}
+.categories-top{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d4d9db;
+}
+.categories-top h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.categories-top span a{
+    color: red;
+}
+.categories-top span a:hover{
+    color: rgb(124, 7, 7);
+}
+           /*second categories*/
+.categories-bottum{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    gap: 20px;
+    flex-basis:content;
+} 
+.categories-box{
+    display: flex;
+    width: 23%;
+    height: 100px;
+    margin-left: 10px;
+    justify-content: space-around;
+    background-color:#e9eced;
+    margin-top: 20px;
+    border-radius: 5px;
+}   
+.cat-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.cat-content h4{
+font-size: 20px;
+text-transform: capitalize;
+}
+.cat-content p{
+    font-size: 14px;
+    margin-top:6px;
+    color: rgb(136, 137, 137);
+}
+.categories-box a img{
+    width:70%;
+    height: 100px;
+    margin-left: 20px;
+
+}     
+      /*countdown start method to css....*/
+
+ .countdown{
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    margin-top: 3rem;
+    border-radius: 10px;
+
+ }   
+ .count-img img{
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+    
+ }  
+
+ .counter-box{
+    top: 130rem;
+    left: 45rem;
+    width: 27%;
+    height: 370px;
+    background-color:white;
+    position: absolute;
+    text-align: center;
+ }
+.counter-box h5{
+    margin-top:3rem;
+    font-weight: bolder;
+    font-size: 15px;
+    color: red;
+    word-spacing: 1px;
+}
+.counter-box h2{
+  font-size: 40px;
+  margin-top: 10px;
+}
+.counter{
+    display: flex;
+    margin-top:2rem;
+    justify-content: center;
+    gap: 25px;
+}
+.time h4{
+    color: rgb(244, 49, 49);
+    padding-bottom: 15px;
+    font-size: 23px;
+}
+.time p{
+    text-transform: uppercase;
+    color: #5f6162;
+    font-size: 14px;
+}
+.count-box{
+    margin-top: 20px;
+    padding: 16px 30px;
+    text-transform:capitalize;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 428px){
+    .categories{
+        width: 95%;
+        height: 1120px;
+        margin-left: 8px;
+    }
+    .categories-top{
+        display: flex;
+        justify-content:flex-start;
+        padding-bottom: 15px;
+        gap: 30px;
+        margin-top: 10px;
+        border-bottom: 1px solid #d4d9db;
+    }
+    .categories-top h3{
+        font-size: 25px;
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+    .categories-top span a{
+        color: red;
+    }
+    .categories-top span a:hover{
+        color: rgb(124, 7, 7);
+    }
+               /*second categories*/
+    .categories-bottum{
+        width: 100%;
+        height: 525px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    } 
+    .categories-box{
+        display: flex;
+        width: 94%;
+        height: 100px;
+        margin-left: 10px;
+        justify-content: space-around;
+        background-color:#e9eced;
+        margin-top: 20px;
+        border-radius: 5px;
+    }   
+    .cat-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .cat-content h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .cat-content p{
+        font-size: 14px;
+        margin-top:6px;
+        color: rgb(136, 137, 137);
+    }
+    .categories-box a img{
+        width:70%;
+        height: 100px;
+        margin-left: 20px;
+    
+    }    
+    .countdown{
+        width: 97%;
+        height: 450px;
+        background-color: red;
+        margin-top: 3rem;
+        border-radius: 10px;
+        margin-left: 2px;
+        
+    
+     }   
+     .count-img img{
+        width: 105%;
+        height: 450px;
+        border-radius: 10px;
+     }  
+    
+     .counter-box{
+        top: 195rem;
+        width: 96%;
+        height: 400px;
+        background-color:white;
+        position: absolute;
+        left: 11px;
+        margin-top: 20px;
+     }
+    .counter-box h5{
+        margin-top:3rem;
+        font-weight: bolder;
+        font-size: 15px;
+        color: red;
+        word-spacing: 1px;
+    }
+    .counter-box h2{
+      font-size: 30px;
+      margin-top: 10px;
+    }
+    .counter{
+        display: flex;
+        margin-top:2rem;
+        justify-content: center;
+        gap: 25px;
+    }
+    .time h4{
+        color: rgb(244, 49, 49);
+        padding-bottom: 15px;
+        font-size: 23px;
+    }
+    .time p{
+        text-transform: uppercase;
+        color: #5f6162;
+        font-size: 14px;
+    }
+    .count-box{
+        margin-top: 20px;
+        padding: 16px 30px;
+        text-transform:capitalize;
+        font-size: 13px;
+        font-weight: bolder;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+       
+
+
+}

@@ -1,0 +1,124 @@
+.sales-product{
+    margin-top: 26rem;
+    width: 68%;
+    height: 500px;
+    margin-left: 20rem;
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.sales-firstbox{
+    width: 33%;
+    height: 500px;
+}
+.sales-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#b2bec3;
+    padding-bottom: 10px;
+}
+.sales-head h3{
+    text-transform:capitalize;
+}
+.sales-head a{
+    text-decoration: none;
+    color: rgb(252, 17, 17);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+             /*sales box ....*/
+ .sales-box{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+ }    
+ .sales-box img{
+    width: 35%;
+    height: 114px;
+    border-radius: 5px;
+
+ }        
+ .sales-words p{
+    font-size: 15px;
+    word-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 10px;
+ }
+ .sales-rate{
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    font-size:20px;
+    margin-bottom:15px;
+ }
+ .sales-rate h5{
+    color: red;
+ }
+ .sales-rate h6{
+    text-decoration: line-through;
+    color: #b2bec3;
+    font-weight: 400;
+ }
+ .sales-words span a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+ }
+
+ @media screen and (max-width: 428px){
+    .sales-product{
+        margin-top: 33rem;
+        width: 100%;
+        height: 1420px;
+        margin-left:5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        gap: 20px;
+    }
+    .sales-firstbox{
+        width: 98%;
+        height: 500px;
+    
+    }
+    .sales-head{
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid#b2bec3;
+        padding-bottom: 10px;
+    }
+    .sales-head h3{
+        text-transform:capitalize;
+    }
+    .sales-head a{
+        text-decoration: none;
+        color: rgb(191, 20, 20);
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+                 /*sales box ....*/
+     .sales-box{
+        width: 98%;
+        height: 120px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+        margin-top: 20px;
+        border: 1px solid #b2bec3;
+        border-radius: 5px;
+     }    
+     .sales-box img{
+        width: 35%;
+        height: 114px;
+        border-radius: 5px;
+    
+     }        
+     
+ }

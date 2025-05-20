@@ -1,0 +1,181 @@
+.bloges{
+    width: 68%;
+    height: 480px;
+    margin-left: 20rem;
+}
+.bloges-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b6b9ba;
+}
+.bloges-top h3{
+    text-transform: capitalize;
+    word-spacing: 1px;
+    font-size: 22px;
+}
+.bloges-top span a{
+    color:red;
+    text-decoration: none;
+}
+     /*box model in flex box methods....*/
+ .bloges-box{
+    width: 24%;
+    height: 380px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #c6c9cb;
+    position: relative;
+ }  
+ .bloges-boxes{
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+ }  
+ .bloges-box img{
+    width: 100%;
+    height: 240px;
+    border-radius: 5px 5px 0px 0px;
+ }
+ .bloges-box h2{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+ }
+ .bloges-box p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #767a7b;
+    margin-bottom: 15px;
+ }
+ .blog-btn{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ced1d3;
+    padding: 10px;
+ }
+ .blog-btn span a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    text-transform:capitalize;
+    color: #303435;
+ }
+ .blog-btn h6{
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #717676;
+ }
+ .blog-date{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    padding:1px 15px;
+    display: flex;
+    flex-direction: column;
+ }
+ .blog-date p{
+    text-transform: uppercase;
+    font-size: 12px;
+ }
+ @media screen and (max-width: 428px){
+
+   .bloges{
+      width: 100%;
+      height: 1700px;
+      margin-left:2px;
+      margin-top: 20px;
+  }
+  .bloges-top{
+      display: flex;
+      justify-content:flex-start;
+      gap: 50px;
+      padding-bottom: 15px;
+      align-items: center;
+      border-bottom: 1px solid #b6b9ba;
+  }
+  .bloges-top h3{
+      text-transform: capitalize;
+      word-spacing: 1px;
+      font-size: 22px;
+      margin-left: 10px;
+  }
+  .bloges-top span a{
+      color:red;
+      text-decoration: none;
+  }
+       /*box model in flex box methods....*/
+   .bloges-box{
+      width: 94%;
+      height: 380px;
+      margin-top: 25px;
+      border-radius: 5px;
+      border: 1px solid #c6c9cb;
+      position: relative;
+      margin-left: 10px;
+   }  
+   .bloges-boxes{
+      width: 100%;
+      height:400px;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      gap: 5px;
+   }  
+   .bloges-box img{
+      width: 100%;
+      height: 240px;
+      border-radius: 5px 5px 0px 0px;
+   }
+   .bloges-box h2{
+      text-align: center;
+      font-size: 19px;
+      margin-top: 10px;
+   }
+   .bloges-box p{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 15px;
+      color: #767a7b;
+      margin-bottom: 15px;
+   }
+   .blog-btn{
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #ced1d3;
+      padding: 10px;
+   }
+   .blog-btn span a{
+      font-size: 16px;
+      text-decoration: none;
+      margin-left: 10px;
+      text-transform:capitalize;
+      color: #303435;
+   }
+   .blog-btn h6{
+      font-weight: 400;
+      font-size: 14px;
+      margin-right: 10px;
+      text-transform: uppercase;
+      color: #717676;
+   }
+   .blog-date{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background-color: white;
+      padding:1px 15px;
+      display: flex;
+      flex-direction: column;
+   }
+   .blog-date p{
+      text-transform: uppercase;
+      font-size: 12px;
+   }
+ }

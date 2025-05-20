@@ -1,0 +1,192 @@
+.hero-img{
+    width: 100%;
+    height: 800px;
+    
+
+}
+.hero-img img{
+    width: 100vw;
+    height: 800PX;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top:25rem;
+    left: 18rem;
+}
+.hero-content p{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.hero-content h1{
+    margin-top: 1rem;
+    width: 80%;
+    font-size:45px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.hero-content button{
+    margin-top: 2rem;
+    padding: 13px 22px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.hero-content button:hover{
+    background-color: white;
+    color: black;
+    
+}
+      /*second methods.....*/
+.hero-bottom  {
+    width: 65%;
+    height: 260px;
+    background-color:white;
+    position: absolute;
+    border-radius: 5px;
+    bottom: -9rem;
+    left: 22rem;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-box{
+    width: 30%;
+    height: 270px;
+    position: relative;
+} 
+
+.hero-box img{
+    width: 100%;
+    height: 240px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.hero-letter{
+    position: absolute;
+    top: 5rem;
+    left: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-letter p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.hero-letter h3{
+    margin-top: 6px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;                    
+}
+.hero-letter button{
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: white;
+    border: none;
+}
+@media screen and (max-width: 428px) {
+    .hero-img{
+        width: 100%;
+        height: 900px;
+    }
+    .hero-img img{
+        width:100%;
+        height: 600PX;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .hero-content{
+        position: absolute;
+        top:20rem;
+        left: 7rem;
+    }
+    .hero-content p{
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    .hero-content h1{
+        margin-top: 1rem;
+        width: 80%;
+        font-size:35px;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bolder;
+    }
+    .hero-content button{
+        margin-top: 2rem;
+        padding: 13px 22px;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bolder;
+    }
+    .hero-content button:hover{
+        background-color: white;
+        color: black;   
+    }
+                 /*second box ...*/
+                 .hero-bottom  {
+                    width: 90%;
+                    height: 800px;
+                    background-color:#ecf0f1;
+                    position: absolute;
+                    border-radius: 5px;
+                    top: 40rem;
+                    left: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .hero-box{
+                    width: 100%;
+                    height: 270px;
+                    position: relative;
+                } 
+                
+                .hero-box img{
+                    width: 95%;
+                    height: 240px;
+                    margin-left: 10px;
+                    margin-top: 15px;
+                    border-radius: 5px;
+                }
+                .hero-letter{
+                    position: absolute;
+                    top: 5rem;
+                    left: 7rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .hero-letter p{
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+                .hero-letter h3{
+                    margin-top: 6px;
+                    color: white;
+                    text-transform: capitalize;
+                    font-size: 20px;                    
+                }
+                .hero-letter button{
+                    padding: 10px 15px;
+                    margin-top: 5px;
+                    background-color: white;
+                    border: none;
+                }
+}
