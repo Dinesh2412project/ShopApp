@@ -1,8 +1,8 @@
 .products{
-    margin-top: 12rem;
-    width:68%;
+    margin-top: 11rem;
+    width:80%;
     height: 520px;
-    margin-left: 21rem;
+    margin-left: 8rem;
 }
 .product-top{
     display: flex;
@@ -57,6 +57,9 @@
     font-size: 14px;
     margin-top: 10px;
  }
+ .product-box h4:hover{
+   color: red;
+ }
  .product-rate{
     display: flex;
     align-items: center;
@@ -76,7 +79,7 @@
  }
  .product-box button{
   border: none;
-    padding: 12px 38px ;
+    padding: 10px 20px ;
     text-align: center;
     margin-left: 15px;
     border-radius: 20px;
@@ -84,6 +87,11 @@
     color: white;
     cursor: pointer;
  }
+  .product-box button:hover{
+   background-color: white;
+   color: red;
+   border: 2px solid red;
+  }
  .product-box p{
   position: absolute;
   top: 25px;

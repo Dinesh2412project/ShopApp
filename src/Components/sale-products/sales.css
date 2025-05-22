@@ -1,8 +1,8 @@
 .sales-product{
-    margin-top: 26rem;
-    width: 68%;
+    margin-top: 0rem;
+    width: 80%;
     height: 500px;
-    margin-left: 20rem;
+    margin-left: 8rem;
     display: flex;
     justify-content:flex-start;
     gap: 20px;

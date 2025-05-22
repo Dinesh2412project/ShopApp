@@ -13,9 +13,9 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-     width: 70%;
+     width: 90%;
      height: 100px;
-     margin-left:20rem;
+     margin-left:4rem;
 }
 .fotter-words{
     width: 20%;
@@ -77,11 +77,15 @@ word-spacing: 1px;
     border: none;
     border-radius:50%;
 }
+.fotter-icon:hover{
+   color: white;
+   background-color: black;
+}
              /*buttom of content in flex methods....*/
  .fotter-menubox{
     margin-top: 3rem;
-    width: 70%;
-    margin-left: 20rem;
+    width: 80%;
+    margin-left: 8rem;
     height: 320px;
     justify-content: space-around;
     display: flex;
@@ -140,9 +144,9 @@ word-spacing: 1px;
  }
  .end-icons{
     margin-top: 3rem;
-    width: 70%;
+    width: 80%;
     height: 100px;
-    margin-left: 20rem;
+    margin-left: 8rem;
     border-bottom: 1px solid #c6ced2;
  }
  .end-icons ul{
@@ -155,6 +159,7 @@ word-spacing: 1px;
     color: #b0b3b5;
     cursor: pointer;
     font-size: 14px;
+    font-weight: 500;
  }
  .end-icons ul li:hover{
     color: black;
